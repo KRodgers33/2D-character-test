@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b370406d5fee347588735ff26ca8b242, type: 3}
+  m_Name: npc1.0
+  m_EditorClassIdentifier: 
+  npcName: Johnathan
+  previewText: Talk
+  text:
+  - Greetings, traveler!
+  dialogueTree:
+  - {fileID: 11400000, guid: 5b1327d68a3e03e4fb86c6dabe4534e0, type: 2}
+  - {fileID: 11400000, guid: 728d350b88c994548800d80c129af89e, type: 2}
+  - {fileID: 11400000, guid: fb3b487b770a04344a89c93332189a3f, type: 2}
