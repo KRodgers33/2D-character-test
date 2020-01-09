@@ -9,7 +9,7 @@ public class PlayerInteract : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && interactable != null && !DialogueManager.isInteracting)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && interactable != null && !DialogueManager.isInteracting)
         {
             dialogueManager.StartDialogue(interactable.dialogue);
         }
